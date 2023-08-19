@@ -1,0 +1,223 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Contacts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Contacts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ManagerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Leads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ProductId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Leads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "StaffId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Leads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "StaffId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Leads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "StaffId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ManagerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Report",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ManagerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Password",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ManagerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ManagerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Rank",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Staffs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "UserName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "index",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
